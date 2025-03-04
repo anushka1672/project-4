@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        .container{
+            background-color: lightgreen;
+            height: 380px;
+            width: 520px;
+            /* row-gap: 10px; */
+            padding: 5px;
+            border:solid darkgreen;
+            
+        }
+
+      
+        .p1{
+            width: 490px;
+            background-color: rgb(157, 222, 224);
+            padding: 10px;
+            border: solid blue;
+            margin: 5px;
+        }
+        .parent{
+            display: flex;
+            column-gap: 5px;
+            
+        }
+        .parent > #c2{
+            border: 3px solid rgb(224, 92, 43);
+            background-color: rgb(242, 177, 112);
+            height: 40px;
+            width: 120px;
+            
+            
+        }
+        .c1p{
+            background-color: rgb(242, 177, 112);
+            display: flex;
+           padding: 3px;
+           border: 3px solid rgb(224, 92, 43);
+        }
+        .c1p div{
+            background-color: pink;
+            height: 30px;
+            width: 120px;
+            border: 3px solid red;    
+        }
+        .a1{
+            float: left;
+            height: 215px;
+            width: 200px;
+            margin: 5px;
+            border:solid brown;
+            background-color: burlywood;
+        }
+        .a2{
+            display: flex;
+            flex-direction: column;
+        }
+        .a2 div{
+            float: left;
+            height: 100px;
+            width: 295px;
+            margin: 5px;
+            border:solid brown;
+            background-color: burlywood;
+        }
+         .p2{
+            width: 500px;
+            background-color: rgb(157, 222, 224);
+            padding: 5px;
+            border: solid blue;
+            margin: 5px;
+        }
+         
+
+        .c2p{
+            display: flex;
+            gap: 3px;
+        }
+
+        .parent2{
+            display: flex;
+            gap: 3px;
+        }
+
+        .parent2 > #c22{
+            height: 40px;
+            width: 160px;
+            background-color: rgb(212, 168, 212);
+            border: 3px solid darkmagenta;
+        }
+
+        .c2p div{
+            height: 40px;
+            width:80px ;
+            border: 3px solid rgb(224, 92, 43);
+            background-color: rgb(242, 177, 112);
+        }
+         
+        
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+      
+        
+
+          
+          <div class="p1">
+              
+              <div class="parent">
+                  <div id="c2"></div>
+                  <div class="c1p">
+                      <div class="c1"></div>
+                      <div class="c1"></div>
+                    </div>
+                    <div  id="c2"></div>
+                </div>
+            </div>
+            
+                <aside class="a1"></aside>
+                <div class="a2">
+                    <div class="a3"></div>
+                    <div class="a3"></div>
+                </div>
+            
+            
+            <div class="p2">
+                
+                <div class="parent2">
+                    <div id="c22"></div>
+                    <div class="c2p">
+                        
+                        <div class="c11"></div>
+                        <div class="c11"></div>
+                    </div>
+                    <div  id="c22"></div>
+                </div>
+            </div>
+
+    </div>
+   
+</body>
+</html>
